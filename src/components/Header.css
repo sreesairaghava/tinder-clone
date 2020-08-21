@@ -1,0 +1,15 @@
+.header {
+  /* Displays items inside container Header as Flex */
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #f9f9f9;
+  align-items: center;
+}
+.header__logo {
+  height: 48px;
+  /* Object-fit used for maintaining aspect ratio */
+  object-fit: contain;
+}
+.header__icon {
+  padding: 20px;
+}
